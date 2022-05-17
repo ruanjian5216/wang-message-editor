@@ -1,0 +1,32 @@
+{
+  "name": "wang-message-editor",
+  "version": "0.0.2",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build:lib": "vue-cli-service build --target lib  src/components/index.js"
+  },
+  "author": "王金龙",
+  "main": "dist/wang-message-editor.umd.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruanjian5216/wang-message-editor"
+  },
+  "homepage": "https://github.com/ruanjian5216/wang-message-editor#readme",
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "vue": "^2.6.14"
+  },
+  "license": "MIT",
+  "keywords": [
+    "消息输入框",
+    "vue消息输入框"
+  ],
+  "private": false,
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "less": "^4.0.0",
+    "less-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
